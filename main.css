@@ -1,0 +1,71 @@
+h1{
+    font-size: 5em;
+    font-weight: bolder;
+    position: relative;
+    top: -0.5em;
+    left: 0.2em;
+
+}
+
+header{
+    display: inline-block;
+    width: 600px;
+}
+
+div{
+    display: inline-block;
+    width: 600px;
+}
+/*h2{*/
+    /*font-size: 3em;*/
+    /*position: relative;*/
+    /*top: -2em;*/
+    /*left: 0.4em;*/
+/*}*/
+nav {
+    display: inline;
+    width: 550px;
+}
+article {
+    display: inline;
+    width: 550px;
+    float: right;
+}
+
+ul li{
+    list-style: none;
+    background-color: yellow;
+    width: 10px;
+    height: 11px;
+    display: inline-block;
+    margin: 5px 10px;
+    opacity: 0.8;
+    border-radius: 1px;
+}
+ul{
+    background-image: url(https://pp.userapi.com/c10179/u67607081/103948800/x_dbbc63b2.jpg);
+    height: 450px;
+    width: 250px;
+    margin-top: 200px;
+    padding-left: 265px;
+    padding-top: 38px;
+    display: inline-block;
+}
+ul li:hover > a:first-child{
+    display: block;
+    position: absolute;
+    top: 33em;
+    left: 100px;
+
+}
+ul li:hover > a:last-child{
+    display: block;
+    position: absolute;
+    top: 35em;
+    left: 100px;
+
+}
+ul li a{
+    font-size: 1em;
+    display: none;
+}
